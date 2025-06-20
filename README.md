@@ -33,7 +33,6 @@
 - [ChromeDriver](https://chromedriver.chromium.org/)
 
 ### 安装步骤
-```bash
 # 克隆仓库
 git clone https://github.com/yourusername/auto-test-framework.git
 cd auto-test-framework
@@ -47,7 +46,6 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 
 运行测试
-bash
 # 运行 Web 测试（Selenium）
 pytest test_cases/web_test --alluredir=./allure-results
 
