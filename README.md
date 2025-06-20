@@ -34,6 +34,7 @@
 
 ### 安装步骤
 # 克隆仓库
+````
 git clone https://github.com/yourusername/auto-test-framework.git
 cd auto-test-framework
 
