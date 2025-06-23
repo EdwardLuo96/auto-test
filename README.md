@@ -55,6 +55,7 @@ pytest test_cases/api_test --alluredir=./allure-results
 
 # 生成报告
 allure serve ./allure-results
+
 📊 报告示例
 https://github.com/EdwardLuo96/auto-test/blob/main/Allure_Report.png
 
