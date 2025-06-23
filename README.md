@@ -33,9 +33,9 @@
 - [ChromeDriver](https://chromedriver.chromium.org/)
 
 ### 安装步骤
-# 克隆仓库
 ````
-git clone https://github.com/yourusername/auto-test-framework.git
+# 克隆仓库
+git clone https://github.com/EdwardLuo96/auto-test
 cd auto-test-framework
 
 # 创建虚拟环境（可选）
@@ -56,8 +56,8 @@ pytest test_cases/api_test --alluredir=./allure-results
 # 生成报告
 allure serve ./allure-results
 📊 报告示例
-https://docs/allure-demo.png
-(截图路径：docs/allure-demo.png)
+https://github.com/EdwardLuo96/auto-test/blob/main/Allure_Report.png
+
 
 🧩 项目结构
 text
@@ -76,10 +76,10 @@ text
 │   └── screenshot.py
 ├── requirements.txt       # 依赖清单
 └── pytest.ini            # Pytest 配置
+
 🌐 CI/CD 集成
 GitHub Actions 配置示例：
 
-yaml
 name: Test Suite
 on: [push]
 jobs:
@@ -98,12 +98,6 @@ jobs:
         with:
           name: allure-report
           path: ./allure-results
-📚 学习资源
-Selenium 官方文档
-
-Pytest 最佳实践
-
-Allure 报告定制
 
 🤝 贡献指南
 欢迎提交 Issue 或 PR！请确保：
@@ -116,9 +110,6 @@ Allure 报告定制
 
 项目持续维护中 - 更多企业级功能正在开发
 
-text
-
----
 
 ### 🎯 使用建议：
 1. **替换占位信息**：
@@ -128,10 +119,3 @@ text
 2. **扩展内容**：
    - 在 `## 🌟 核心功能` 部分添加您的特色实现
    - 如果是企业项目，可添加 **测试覆盖率徽章**
-
-3. **个性化**：
-   ```markdown
-   ## 🏆 项目亮点
-   - 实现华为云 API 测试规范对接
-   - 支持多环境配置（dev/staging/prod）
-   - 集成企业微信通知功能
